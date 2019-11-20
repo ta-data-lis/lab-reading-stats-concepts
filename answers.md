@@ -20,5 +20,8 @@ The three distributions in the image could represent the study of various sample
 
 ## Challenge 3: Applying testing to a specific case: A/B testing.
 
-So, take one single example in the articles you just read, which specific test/s would you apply? (We want you just to do a draft and think a little bit how to apply the tests you already know in this case)
+1) Characterise the original conditions: The original conditions are the A group/control group. In order to analyse it, the best suited metric needs to be determined. In the Netflix example, the first thing to do would be to determine the baseline probability that a film is viewed given its original cover image and then specify what percentage of an increase in views would justify the change to a new cover.
 
+2) Test group: The next step in setting set up the experiment is to determine the size of the test group. Not knowing whether the cover change results in a negative or positive result, in order not to hurt the business, it is best to adopt a relatively small test group. However, the smaller the group, the longer it will take to collect the necessary data for the A/B test. It is also important to consider the minimum sample size needed for the experiment.
+
+3) Compare data: The third step is to compare the data from the control group and the test group using hypothesis testing. The null hypothesis will be that the chosen metric (number of film views) did not change from the control group to the test group. The alternative hypothesis is that this metric increased (or decreased) in the test group.
