@@ -13,6 +13,7 @@ we should never conclude there is ‘no difference’ or ‘no association’ ju
 
 Neither should we conclude that two studies conflict because one had a statistically significant result and the other did not.
 
+![alt text](https://github.com/mjvsilva/lab-reading-stats-concepts/gauss.png "Normal distribution examples")
 
 
 
