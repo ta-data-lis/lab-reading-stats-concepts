@@ -7,14 +7,15 @@ Average is used in descriptive statistics to characterise a certain sample. On t
 
 ## Challenge 2: What is the "problem" in science with p-values?
 
-a statistically non-significant result does not ‘prove’ the null hypothesis (the hypothesis that there is no difference between groups or no effect of a treatment on some measured outcome)1. Nor do statistically significant results ‘prove’ some other hypothesis.
+The "problem" with the use of P-values in science is related with the (human) tendency to present results as a dychotomy. When testing an hypothesis, we first study a null hypothesis that is incompatible with an alternative hypothesis that we want to demonstrate. We study the null hypothesis instead of going directly to the alternative hypothesis that is the real focus of our interest because the study of the P-value (given a certain threshold) allows us to dismiss an hypothesis as extremely unlikely to happen, but not demonstrate it.
 
-we should never conclude there is ‘no difference’ or ‘no association’ just because a P value is larger than a threshold
+The "problem in science" that the article talks about, then, is when studies attempt to use the P-value to positively demonstrate an hypothesis. They conclude that when the P-value is higher than the threshold they have set, then this not only means that the null hypothesis cannot be rejected, it's an actual demonstration of its truth. This is incorrect.
 
-Neither should we conclude that two studies conflict because one had a statistically significant result and the other did not.
+As the article explains, "all statistics, including P-values and confidence intervals, naturally vary from study to study, and often do so to a surprising degree." The image below intends to illustrate this assertion.
 
 ![alt text](https://github.com/mjvsilva/lab-reading-stats-concepts/blob/master/gauss.png "Normal distribution examples")
 
+The three distributions in the image could represent the study of various samples from the same population. Their mean is the same, but because the standard deviation varies, in some cases the P-value might allow the rejection of some hypothesis and in other cases not. Just because the 95% (or whatever accepted range in the field) falls on a certain range of values, this does not mean that the values inside the 95% region are
 
 
 ## Challenge 3: Applying testing to a specific case: A/B testing.
