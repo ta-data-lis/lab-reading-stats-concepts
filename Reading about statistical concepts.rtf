@@ -1,0 +1,78 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf500
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue-Bold;\f1\fswiss\fcharset0 ArialMT;\f2\fnil\fcharset0 HelveticaNeue;
+\f3\fswiss\fcharset0 Arial-BoldMT;}
+{\colortbl;\red255\green255\blue255;\red27\green31\blue34;\red255\green255\blue255;\red0\green0\blue0;
+\red10\green77\blue204;}
+{\*\expandedcolortbl;;\cssrgb\c14118\c16078\c18039;\cssrgb\c100000\c100000\c100000;\cssrgb\c0\c0\c0\c84314;
+\cssrgb\c1176\c40000\c83922;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww20160\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+Challenge 1: What is the difference between expected value and mean?
+\fs40 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\b0\fs28 \cf2 \cb3 You know both concepts but, is there a difference? Are they synonims? \
+\
+The expected value represents the expected average of the variable that you are investigating, for example :\
+the expected value of rolling a 3-sided dice is \cf0 \cb3 (1 * 1/3) + (2 * 1/3) + (3 * 1/3) = 2.\
+The mean would be the same (1+2+3)/3= 2.\
+However, with the expected value you can give weight to occurrences that are more likely to prevail, since it\'b4s calculated with the probability. The mean is calculated with the actual values that have occurred.\
+Both the expected value and the mean are the average of an occurrence.
+\f2\fs32 \cf2 \cb3 \
+\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs28 \cf2 \cb3 Challenge 2: What is the "problem" in science with p-values?\
+\pard\pardeftab720\partightenfactor0
+
+\f2\b0 \cf2 \
+The issue is that something can be made significant or non-significant depending on the P-value that is chosen.\
+Especially when investigating risks for medicine, this can mean that a risk of the medicine is rejected (because it hasn\'92t been found significant) although that when choosing a different P-value the risk would be accepted.\
+Especially for these types of risks, instead of saying something is significant or non-significant, some \'93uncertainty\'94 should be taken into account.
+\f0\b \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\fs40 \cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 Challenge 3: Applying testing to a specific case: A/B testing.\cb1 \
+
+\f3\fs28 \cb3 A/B testing is a widely used tool to understand differences between two samples. It is a way to measure the impact of something we did:\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf2 \cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+A marketing campaign.\cb1 \
+\ls1\ilvl0\cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+A new feature in our application.\cb1 \
+\ls1\ilvl0\cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+A new design in our application.\cb1 \
+\ls1\ilvl0\cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+A different flow in the User Experience flow.\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 To do this, is very important first to design our experiment.\cb1 \
+\cb3 We think it will work but can we be sure? So instead of implementing this new botton for all users, we implement it for 10% and we compare the results with the users that didn't have it. Is there a significant difference? Is our botton working?
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 \
+
+\f1 There will probably be a significant difference, since the distribution of the people that have the Button available is very different from the people that don\'92t have the button available (10% vs. 90%).\
+Also of the people that have the button available, not all people will click it, so first we would have to see how many people are clicking the button when they have it available.\
+\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\b \cf2 \cb3 So, take one single example in the articles you just read, which specific test/s would you apply? (We want you just to do a draft and think a little bit how to apply the tests you already know in this case)
+\f1\b0 \
+\
+Example chosen: Netflix\
+In order to see how the click rate of a series or movie can be improved for Netflix, I would do a similar test as the third example of Netflix:\
+Show users a title with different images.\
+You can then measure if the amount of click rates for that specific series or movie is the same or significantly different from the click-rate when the three images are not shown.\
+In order to get more reliable results, I would distinguish users depending on sex and age.\
+This means (for example) that the average click rate of women when only showing one image should be compared with the average click rate of women when showing 3 images.\
+The average click rate of people from 18-30 when only showing one image should be compared with their average click rate when showing 3 images.
+\f2\fs32 \
+\
+}
