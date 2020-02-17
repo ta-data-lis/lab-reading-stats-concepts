@@ -36,6 +36,7 @@ Influencing data to make it significant, or to draw a hypothesis after you alrea
 The best way to combat the fickle p-value is to increase the number of replicates that you do and see if your p-value jumps around or if it stays consistently low
 
 
+
 **A little historic background at the origins of the p-value, in case someone wants to read it.**
 
 In 1925 British geneticist and statistician Ronald Fisher published a book called Statistical Methods for Research Workers. The title doesn’t scream “best seller,” but the book was a huge success and established Fisher as the father of modern statistics. In it, he tackles the problem of how researchers can apply statistical tests to numerical data to draw conclusions about what they have found and determine whether it is worth pursuing. He references a statistical test that summarizes the compatibility of data with a proposed model and produces a p value. Fisher suggests that researchers might consider a p value of 0.05 as a handy guide: “It is convenient to take this point as a limit in judging whether a deviation ought to be considered significant or not.” Pursue results with p values below that threshold, he advises, and do not spend time on results that fall above it. Thus was born the idea that a value of p less than 0.05 equates to what is known as statistical significance—a mathematical definition of “significant” results.
