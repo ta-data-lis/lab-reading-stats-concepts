@@ -17,10 +17,36 @@ You know both concepts but, is there a difference? Are they synonims? Start inve
 
 As a good reference (once you have looked for some information) you have   [this](http://expected.news/value2) article.
 
+##### my answer
+mean is the simple average of numbers, f.e. when you throw a fair six-sided dice 3 times, you take the average of the thre numbers.
+
+expected value is not about the throwed numbers, its 1/6 * the numbers on the side --> taking into account the probability
+
+law of large numbers: the average gets to the expected values when you repeat throwing the dice a lot (=large number)
+
+
+
 ### Challenge 2: What is the "problem" in science with p-values?
 We have told you that a lot of scientifical investigations are based on p-values. The last week, Nature magazine published [an article](http://nature.social/statistical4) regarding the problem. Start digging on it!
 
 Don't hesitate to use more articles if you want to :)
+
+##### my answer
+Upon until now a lot of scientist have taken the p-value of 0.05 (5%) as a strict value to decide wheter a result is significant or not: 
+- if the p-value was above 5% they declared their results as not significant
+- if the p- value was smaller than 5 % they claimed her results to not beeing significant, and sometimes they said, that their is even no relationship.s
+
+A movement of statisticians assess this as too much of black and white thinking. It leads to the risk of deciding wrong or interpreting results of different studies as contradictory,, just because in one study the p-value was above 5% and in the other bellow. In fact, the p-value depends also on the setting of a study (f.e. amount of observation). 
+
+The movement of statistician make four suggestions to improve the discussion about the significancy of results.
+  - don't only look at the p-value of 5%, but also at other p-values. 
+  - not only indicate significancy with stars (f.e. 3 stars for a p-value bellow 5 %), but add the p-value to a table. 
+  - not only discuss about the point estimation you get from a regression, but also about the confidence-intevall: f.e. you can say, that all the values between x and y are compatible.
+  - describe and discuss the method, so that others can think about the method and decide, if the setting and the study is compatible for them.
+  
+My opinion: I like this new trend because at university i saw students / teacher just change their regressions and ideas untlil they got a significant results (at 5%). With that all the "non-significant" results was never discussed or published, although it could have been valuable and important.s
+
+
 
 
 ### Challenge 3: Applying testing to a specific case: A/B testing.
@@ -39,7 +65,7 @@ To do this, is very important first to design our experiment.
 One example:
 Our application has a lot of mini-games. We want people to reach the games that we think are the best but the behaviour is not the expected, they don't reach them.
 
-So we call a designer and after a lot of work he shows us a new design for our application: we will add a botton specific for that kinf of games inviting the users to click on it:
+So we call a designer and after a lot of work he shows us a new design for our application: we will add a botton specific for that kind of games inviting the users to click on it:
 
 *Click here to discover cool games!*
 
@@ -56,6 +82,21 @@ Read more about A/B testing with a couple of examples:
 [A cool general explanation](http://arts.show/tested7)
 
 So, take one single example in the articles you just read, which specific test/s would you apply? (We want you just to do a draft and think a little bit how to apply the tests you already know in this case)
+
+
+#### my answer
+example: my company sells one type of chocolate bars. The boss asked the design department to design a package for this bar, in order to improve the sales number. Befor changing the package, he asked me to test, if customers buy more of the chocloate with the new package. Therefore i will select some stores that sell the bar in the new package. Than i will compare the sale numbers with the previous sale numbers.
+
+H0: sales dont change
+H1: sales do change
+
+Sample size:
+depends on the number of chocolate bars the stores sold before. 
+and the increase in salsenumber we expect / the boss wants to change the package
+alpha: 0.5%
+statistical power: 80&
+
+
 
 ## Deliverables
 You need to submit a markdown file with the answers to the questions above. You can create a new `.md` file or directly edit the `README.md`.
