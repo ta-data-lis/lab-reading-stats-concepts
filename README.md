@@ -1,6 +1,6 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Lab | Reading About Statistic Concepts
+# Lab | Reading About Statistic Conceptss
 
 ## Introduction
 
