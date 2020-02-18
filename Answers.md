@@ -32,41 +32,11 @@ In essence, the problem is one of "stretching" sometimes for the benefit of a co
 
 
 ### Challenge 3: Applying testing to a specific case: A/B testing.
-A/B testing is a widely used tool to understand differences between two samples. It is a way to measure the impact of something we did:
-* A marketing campaign.
-* A new feature in our application.
-* A new design in our application.
-* A different flow in the User Experience flow.
+Goal  Find out if the new website vs. is producing a better response than the previous one.
 
-To do this, is very important first to design our experiment.
-* We need to know how we are measuring the impact. If people has the behaviour we want with this new implementation.
-* We choose a control group (people who doesn't have/see the new change) and the group which will see the new change.
-* We think about how much data do we need.
-* We measure the difference between them.
-
-One example:
-Our application has a lot of mini-games. We want people to reach the games that we think are the best but the behaviour is not the expected, they don't reach them.
-
-So we call a designer and after a lot of work he shows us a new design for our application: we will add a botton specific for that kinf of games inviting the users to click on it:
-
-*Click here to discover cool games!*
-
-We think it will work but can we be sure? So instead of implementing this new botton for all users, we implement it for 10% and we compare the results with the users that didn't have it. Is there a significant difference? Is our botton working?
-
-Read more about A/B testing with a couple of examples:
-
-[Another example about Netflix here](http://select.video/artwork4)
-
-[What happened to Basecamp](http://millions.social/tested7)
-
-[An example with Python](http://math.social/tested3)
-
-[A cool general explanation](http://arts.show/tested7)
-
-So, take one single example in the articles you just read, which specific test/s would you apply? (We want you just to do a draft and think a little bit how to apply the tests you already know in this case)
-
-## Deliverables
-You need to submit a markdown file with the answers to the questions above. You can create a new `.md` file or directly edit the `README.md`.
-
-## Submission
-Upon completion, add your deliverables to git. Then commit git and push your branch to the remote.
+Approach:
+1.	Test the outcomes using two metrics: Average time spent on landing page & Conversion Rate (% of visits that end in a transaction).
+2.	Split traffic between users, give access to the test version to a sample group versus the rest. Non 50-50 split can be considered due to commercial considerations, but that might impact the time to have statistical significant results (the more the skew, the more time).
+3.	Do the A/B Testing on these groups during a given period, taking into account the statistical significance /confidence intervals for the samples taken (Z-test, Chi-Squared test).
+4.	Analyse the results and validate/reject the Null Hip given the scenario that has been setup.
+5.	After it has been considered that the conclusions are statistically robust, implement the new website for all users or send back to review by the design team if results are not satisfactory.
