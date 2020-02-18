@@ -1,4 +1,6 @@
 Challenge 1: What is the difference between expected value and mean?
 The mean value is a statistical generalization of multiple occurrences of an event.
-The expected value refers to a single event that will happen in the future. The expected value is numerically the same as the average value, but it is a prediction for a specific future occurrence rather than a generalization across multiple occurrences.
+The expected value refers to a single event that will happen in the future. 
+The expected value is numerically the same as the average value, but it is a prediction for a specific future 
+occurrence rather than a generalization across multiple occurrences.
 
