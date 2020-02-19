@@ -6,9 +6,11 @@
 
 ### Challenge 1: What is the difference between expected value and mean?
 _You know both concepts but, is there a difference?_
-Yes, they are different. The expected value is a probability concept, while the mean is a value of statistical description.
+Yes, they are different, but they're also somehow the same. The expected value is a probability concept, while the mean is a value of statistical description.
 
 The mean is an observed value. For instance, to know the mean of goals scored by a team in a football tournament, we must know the results of the matches already. If the team has scored 8 goals in 4 matches, we can say that the mean is 2 goals in each match. However, in the current match, a player from the opposing team has been sent off, so the expected value of goals in that game might increase.
+
+The thing is that with the Law of Large Numbers, if we have enough data we can translate that into a model, and the expected value is actually the mean. 
 
 
 
