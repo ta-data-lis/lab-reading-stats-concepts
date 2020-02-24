@@ -1,0 +1,26 @@
+### Challenge 2: What is the "problem" in science with p-values?
+
+In statistical hypothesis testing, the p-value or probability value is the probability of obtaining test results at least as extreme as the results actually observed during the test, assuming that the null hypothesis is correct.
+
+In statistics, the p-value is the probability of obtaining the observed results of a test, assuming that the null hypothesis is correct. It is the level of marginal significance within a statistical hypothesis test representing the probability of the occurrence of a given event.
+
+* Hypthesis Testing 
+
+The null hypothesis is usually a hypothesis of equality between population parameters; e.g., a null hypothesis may state that the population mean return is equal to zero. The alternative hypothesis is effectively the opposite of a null hypothesis; e.g., the population mean return is not equal to zero. Thus, they are mutually exclusive, and only one can be true. However, one of the two hypotheses will always be true.
+
+exemple:
+
+'A random sample of 100 coin flips is taken, and the null hypothesis is then tested. If it is found that the 100 coin flips were distributed as 40 heads and 60 tails, the analyst would assume that a penny does not have a 50% chance of landing on heads and would reject the null hypothesis and accept the alternative hypothesis.'
+
+
+
+""When was the last time you heard a seminar speaker claim there was ‘no difference’ between two groups because the difference was ‘statistically non-significant’?""
+
+
+Miss interpretations. 
+
+False conclusions.
+
+Again, we are not advocating a ban on P values, confidence intervals or other statistical measures — only that we should not treat them categorically. This includes dichotomization as statistically significant or not, as well as categorization based on other statistical measures such as Bayes factors.
+
+confidence intervals as ‘compatibility intervals’

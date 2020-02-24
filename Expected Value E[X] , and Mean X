@@ -1,0 +1,43 @@
+### Challenge 1: What is the difference between expected value and mean?
+
+Expected Value
+Is deterministic
+
+Expected Value E[X], of a discrete random variable is the probability-weighted average of all its possible values, this this differes from the ordinary arithmetic mean in which each data point contributes equally to the finall average. In the probability_weighted average we get diferent cotributions by each data point to the final average.
+
+- Differente Scenarios
+
+* Neutral Expected Value Games
+
+'You flip the fair coin. Every time you get heads, you lose $1, and every time you get tails, you gain $1.'
+- you are expected to neither gain nor lose
+
+* Positive Expected Value Games
+
+'You flip the fair coin. Every time you get heads, you lose $1, and every time you get tails, you gain $2.'
+-  In such a game you are expected to gain money over time.(a few weeks of lost time are outweighed by the benefits from having a better job)
+
+* Negative Expected Value Games
+
+'You flip the fair coin. Every time you get heads, you lose $1, and every time you get tails, you gain $1. Additionally, there is a $0.01 fee for every flip regardless of the outcome.'
+-you are expected to lose money over time
+
+
+MEAN
+Is amostral
+
+Is the central value of a discret set of numbers, specifically, the sum of the values divided by the number of values.
+
+
+- Sample Mean and Population Mean
+
+The sample mean (denoted x¯) is based on a series of observations obtained by sampling from a statistical population
+The population mean is denoted μ and is the mean of total poplulation.
+The sample mean provides an estimate of the population mean.
+
+The sample mean may differ from the population mean, especially for small samples. The law of large numbers dictates that the larger the size of the sample, the more likely it is that the sample mean will be close to the population mean.
+
+
+The difference between the two is very tin and although they sometimes come as synonims. But we can see the expected value as the probability we expect some kind of event have without taking amostral sample wich we do in order to have the mean.
+
+

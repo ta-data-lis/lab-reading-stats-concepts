@@ -1,0 +1,46 @@
+###So, take one single example in the articles you just read, which specific test/s would you apply? (We want you just to do a draft and think a little bit how to apply the tests you already know in this case)
+
+
+
+A/B Tests by Netflix in order to increase engagment.
+
+Identify artwork that enabled members to find a story they wanted to watch faster.
+Ensure that our members increase engagement with each title and also watch more in aggregate.
+Ensure that we don’t misrepresent titles as we evaluate multiple images.
+
+
+'Broadly, Netflix’s A/B testing philosophy is about building incrementally, using data to drive decisions, and failing fast. '
+
+Hypotesis by:
+
+* Them
+
+- 
+
+- Hypothesis for this test was that we can improve aggregate streaming hours for a large member allocation by selecting the best artwork across each of these titles.
+
+
+* Mine
+
+
+
+Testes by:
+
+* Them
+
+- engagment twoards different images for the same title. 
+Measured the engagement with the title for each variant — click through rate, aggregate play duration, fraction of plays with short duration, fraction of content viewed (how far did you get through a movie or series)
+
+- Experiment 2 (multi-cell explore-exploit test)
+This test was constructed as a two part explore-exploit test. The “explore” test measured engagement of each candidate artwork for a set of titles. The “exploit” test served the most engaging artwork (from explore test) for future users and see if we can improve aggregate streaming hours.
+
+
+
+
+* Mine
+
+- Moving images from sceans of the title in the homepage.
+Mesured with The time number of people who goes watch the main sugestion on the homepage.
+
+- Diferent serie sugestion (with moving image) dependind on the genere more watched. Not alway the same, The most diferent that it could be.
+Mesured by the total of titles sugested that were wacthed.
