@@ -39,7 +39,7 @@ To do this, is very important first to design our experiment.
 One example:
 Our application has a lot of mini-games. We want people to reach the games that we think are the best but the behaviour is not the expected, they don't reach them.
 
-So we call a designer and after a lot of work he shows us a new design for our application: we will add a button specific for that kinf of games inviting the users to click on it:
+So we call a designer and after a lot of work he shows us a new design for our application: we will add a button specific for that kind of games inviting the users to click on it:
 
 *Click here to discover cool games!*
 
