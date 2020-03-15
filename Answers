@@ -6,4 +6,7 @@ occurrence rather than a generalization across multiple occurrences.
 
 Challenge 2: What is the "problem" in science with p-values?
 The following list clarifies some issues that are commonly misunderstood regarding p-values: 
-The p-value is not the probability that the null hypothesis is true, or the probability that the alternative hypothesis is false.
+The p-value is not the probability that the null hypothesis is true, or the probability that the alternative hypothesis 
+is false.
+
+Challenge 3: A/B Testing
