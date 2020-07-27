@@ -1,0 +1,31 @@
+### Challenge 1: What is the difference between expected value and mean?
+
+The expected value as its name explains is a probablistic calculation of the value expected.
+According to investopedia.com: "the expected value is calculated by multiplying each of the possible outcomes by the likelihood each outcome will occur and then summing all of those values"
+Mathematically, the expected value is written as follows:
+EV=∑P(X_i)×X_i 
+The expected value is not the same as the mean but the EV of a random variable gives an idea of the centre of the distribution and will eventually approach the mean of the distribution when generated a large number of times.
+
+
+
+### Challenge 2: What is the "problem" in science with p-values?
+The p-value is the value of confidence in a hypothesis testing.
+In statistics we always test the existence of a relationship between variables against the absence of relation between the same variables.
+The statistical calculation allows to assign a value to the p-value:
+If p is lower than a threshold then we can say that the null hypothesis is "statistically true/false at a level of xx%" which allows to reject or not the null hypothesis.
+The probability of making an error or overseeing a relation between variables becomes it resulted not significant however is never 0%.
+There is always a possibility that we make an error (e.g. false negative or false positive)
+
+### Challenge 3: Applying testing to a specific case: A/B testing
+The basecamp.com case
+
+Basecamp wants to change its webpage as part of their renewed branding.
+One of the most important features is the sign up form that allows a quick path to potential customers and eventually to converting these signing up customers to paying customers.
+
+The modification of the layout of the signup form needs to be tested so two versions of the website should be made: one with the old version (website A), one with the new desired layout (website B)
+
+1) How to measure the impact? measure the signing up-rate and the conversion rate from website A and B
+2) How to choose the control group? the control group needs to be as homogeneous as possible, thus no geographical filtering or other type of filtering. The control group should be chosen randomely by assigning randomely if version A or B is displayed when browsing to the website
+3) How much data do we need? The data collection must be long enough until the desired level of statistical significance is reached (typically, at least 95%)
+
+
