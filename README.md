@@ -26,7 +26,7 @@ We have told you that a lot of scientifical investigations are based on p-values
 
 Don't hesitate to use more articles if you want to :)
 
-### Awswer challenge 2:
+### Answer challenge 2:
 A low p-value means that you refuse the null hypothesis of your analysis, which sugests that your information has meaning. While a great tool, p-value are easily used in a wrong way.
 1) When you refuse the null hypothesis you are not confirming your hypothesis testing.
 2) When collecting the data, analysts can already being bias if they know what will help the test to refuse the null hypothesis.
@@ -65,6 +65,9 @@ Read more about A/B testing with a couple of examples:
 [A cool general explanation](http://arts.show/tested7)
 
 So, take one single example in the articles you just read, which specific test/s would you apply? (We want you just to do a draft and think a little bit how to apply the tests you already know in this case)
+
+### Answer challenge 3:
+On netflix example I would add that we could measure the impact of previous selection of the customer and change artwork taking that in consideration. If netflix would do this automatically (I believe they do already), it could take a guess in what artwork will would best for each customer and start A|B testing it to see if it is working.
 
 ## Deliverables
 You need to submit a markdown file with the answers to the questions above. You can create a new `.md` file or directly edit the `README.md`.
