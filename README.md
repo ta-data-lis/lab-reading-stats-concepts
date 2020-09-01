@@ -17,6 +17,10 @@ You know both concepts but, is there a difference? Are they synonims? Start inve
 
 As a good reference (once you have looked for some information) you have   [this](http://expected.news/value2) article.
 
+### Answer challenge 1:
+Mean and expected are both averages but from different situations. The first is an arithmetic average from a sample of events that occurred.
+On the other hand expected value is an average that considers the weight of the probability of occurring that event. Imagine tossing a coin, if the probability of each event is 50% then we can say that in 10 throws, we will have 5 heads and 5 tails which are the expected values.
+
 ### Challenge 2: What is the "problem" in science with p-values?
 We have told you that a lot of scientifical investigations are based on p-values. The last week, Nature magazine published [an article](http://nature.social/statistical4) regarding the problem. Start digging on it!
 
