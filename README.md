@@ -17,11 +17,20 @@ You know both concepts but, is there a difference? Are they synonims? Start inve
 
 As a good reference (once you have looked for some information) you have   [this](http://expected.news/value2) article.
 
+### Answer challenge 1:
+Mean and expected are both averages but from different situations. The first is an arithmetic average from a sample of events that occurred.
+On the other hand expected value is an average that considers the weight of the probability of occurring that event. Imagine tossing a coin, if the probability of each event is 50% then we can say that in 10 throws, we will have 5 heads and 5 tails which are the expected values.
+
 ### Challenge 2: What is the "problem" in science with p-values?
 We have told you that a lot of scientifical investigations are based on p-values. The last week, Nature magazine published [an article](http://nature.social/statistical4) regarding the problem. Start digging on it!
 
 Don't hesitate to use more articles if you want to :)
 
+### Answer challenge 2:
+A low p-value means that you refuse the null hypothesis of your analysis, which sugests that your information has meaning. While a great tool, p-value are easily used in a wrong way.
+1) When you refuse the null hypothesis you are not confirming your hypothesis testing.
+2) When collecting the data, analysts can already being bias if they know what will help the test to refuse the null hypothesis.
+3) Big datasets tend to show a p-value close to zero because, since there is a lot of information it can become easy to find samples that show some kind of correlation that would make the p-value really low (since we are refusing the non-existence of meaning). However if we look in other samples the correlation does not exist. P-value just had no real meaning because we used it wrong.
 
 ### Challenge 3: Applying testing to a specific case: A/B testing.
 A/B testing is a widely used tool to understand differences between two samples. It is a way to measure the impact of something we did: 
@@ -56,6 +65,9 @@ Read more about A/B testing with a couple of examples:
 [A cool general explanation](http://arts.show/tested7)
 
 So, take one single example in the articles you just read, which specific test/s would you apply? (We want you just to do a draft and think a little bit how to apply the tests you already know in this case)
+
+### Answer challenge 3:
+On netflix example I would add that we could measure the impact of previous selection of the customer and change artwork taking that in consideration. If netflix would do this automatically (I believe they do already), it could take a guess in what artwork will would best for each customer and start A|B testing it to see if it is working.
 
 ## Deliverables
 You need to submit a markdown file with the answers to the questions above. You can create a new `.md` file or directly edit the `README.md`.
