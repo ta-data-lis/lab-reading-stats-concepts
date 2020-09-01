@@ -26,6 +26,11 @@ We have told you that a lot of scientifical investigations are based on p-values
 
 Don't hesitate to use more articles if you want to :)
 
+### Awswer challenge 2:
+A low p-value means that you refuse the null hypothesis of your analysis, which sugests that your information has meaning. While a great tool, p-value are easily used in a wrong way.
+1) When you refuse the null hypothesis you are not confirming your hypothesis testing.
+2) When collecting the data, analysts can already being bias if they know what will help the test to refuse the null hypothesis.
+3) Big datasets tend to show a p-value close to zero because, since there is a lot of information it can become easy to find samples that show some kind of correlation that would make the p-value really low (since we are refusing the non-existence of meaning). However if we look in other samples the correlation does not exist. P-value just had no real meaning because we used it wrong.
 
 ### Challenge 3: Applying testing to a specific case: A/B testing.
 A/B testing is a widely used tool to understand differences between two samples. It is a way to measure the impact of something we did: 
