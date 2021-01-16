@@ -15,43 +15,12 @@ Remember for this lab: there is a right answer. But there is no perfect way to e
 ### Challenge 1: What is the difference between expected value and mean?
 You know both concepts but, is there a difference? Are they synonims? Start investigating. 
 
-
-
 As a good reference (once you have looked for some information) you have   [this](http://expected.news/value2) article.
-
-ANSWER:
-
-The expected value is more related with ideal scenarios in terms of probabilistics. So as per the article, the expected value is the average probable value according to the ideal distribution of probabilities. 
-
-But the mean is referred to the sample of population itself. So after conducting the experiment, lets say of rollind the dice, we will have an obtained mean of the values for that sample.
-
-The same apply to an ideal model and its expected value vs the sample obtained for the reality of the experiment, game or process. 
-
-In the absolute long term, expected
-
 
 ### Challenge 2: What is the "problem" in science with p-values?
 We have told you that a lot of scientifical investigations are based on p-values. The last week, Nature magazine published [an article](http://nature.social/statistical4) regarding the problem. Start digging on it!
 
 Don't hesitate to use more articles if you want to :)
-
-ANSWER:
-
-The p-value is a meaure to reject the null hipothesis. It means that normally H0 is built in a way that allows to create a double negation so something cannot be discarded. 
-
-So if we are checking the effect of a new vaccine for Cov19, our H0 would be:
-
-H0: the vaccine does not influence the chance of contagion
-H1: the vaccine does influence the chance of contagion. 
-
-So a low p-value would allow us to reject H0, there is no no-influence, but DOES NOT ALLOW to confirm H1. 
-
-In case of experiments were samples are limited, are focused on human behaviour (like economics) etc.. slightly high p-values are rejecting then null hipothesis and people are thereby denying the potential no no-relationship. 
-
-But that has a lot to do with experimental design and dependencies or spurian correlation in the model. Thereby we may have a non statistical significance in our formula but a model that is totally ok to be used for business or economic decisions. 
-
-It is harder to accept that discussion for natural sciences, as in that case the sample and population shall be revisitied as well as the experimental set up. 
-
 
 
 ### Challenge 3: Applying testing to a specific case: A/B testing.
@@ -87,18 +56,6 @@ Read more about A/B testing with a couple of examples:
 [A cool general explanation](http://arts.show/tested7)
 
 So, take one single example in the articles you just read, which specific test/s would you apply? (We want you just to do a draft and think a little bit how to apply the tests you already know in this case)
-
-ANSWER:
-
-A/B testing is an industry meme of bringing ANOVA ur Multivariant ANOVA to realms outside of natural science into marketing/economics. 
-
-I am fully familiar with ANOVA and happy to apply on python models, looking forward to it. 
-
-Basically it can be used for instance with customer accesing the self service portal of our company and checking the average time spent in the portal & number of actions self-completed against the different designs. 
-
-In general we need to check the 2 populations (or n, if we are doing A/B/n) share the same distribution. If they do share it, we need to check on the mean and variance of the groups push into the different categories.
-
-Thereby following a clasical ANOVA. 
 
 ## Deliverables
 You need to submit a markdown file with the answers to the questions above. You can create a new `.md` file or directly edit the `README.md`.
