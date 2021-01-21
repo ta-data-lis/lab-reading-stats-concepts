@@ -1,0 +1,15 @@
+1) The expected value is the average value of a random variable over an infinite amount of experiments
+
+Whilst the mean is the result of adding the results of an experiment up and dividing them by the number of results (so over a small nubmer of experiments it many not
+be the same as the expected value)
+
+2)A problem with P values is that the given 0.05 to check if something is statistically significant or not may not apply to all cases. 
+It is also often misinterpreted as'statistical non-significance' to mean there is no correlation which is not true.
+
+
+The p-value is not the probability that the null hypothesis is true, or the probability that the alternative hypothesis is false which is naother misconception.
+
+3)I would A/B Test where two differnt buttons(the one the designer drew and the previous one) will be shown to two separate but similar samples - and then checking to see if the results
+ show a differnce in clicks to determine if the button is noticably impactful by increasing clicks or not
+
+
