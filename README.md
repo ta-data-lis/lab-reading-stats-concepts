@@ -15,10 +15,10 @@ Remember for this lab: there is a right answer. But there is no perfect way to e
 ### Challenge 1: What is the difference between expected value and mean?
 You know both concepts but, is there a difference? Are they synonims? Start investigating. 
 
-As a good reference (once you have looked for some information) you have   [this](http://expected.news/value2) article.
+As a good reference (once you have looked for some information) you have   [this](https://www.differencebetween.com/difference-between-mean-and-vs-expectation/) article.
 
 ### Challenge 2: What is the "problem" in science with p-values?
-We have told you that a lot of scientifical investigations are based on p-values. The last week, Nature magazine published [an article](http://nature.social/statistical4) regarding the problem. Start digging on it!
+We have told you that a lot of scientifical investigations are based on p-values. The last week, Nature magazine published [an article](https://towardsdatascience.com/the-problem-with-p-values-f056245f78a3) regarding the problem. Start digging on it!
 
 Don't hesitate to use more articles if you want to :)
 
