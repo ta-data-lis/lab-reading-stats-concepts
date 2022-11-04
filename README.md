@@ -11,6 +11,10 @@ This week you will find some questions here that you will need to answer by docu
 Remember for this lab: there is a right answer. But there is no perfect way to explain it (except for in a mathematical way, but this is another story).
 
 ## Challenges
+### Challenge 0: The 80/20 Rule — Pareto Principle
+The 80/20 rule, commonly referred to as the Pareto Principle or Law of Vital and Trivial many is a common term amongst the realm of business. Most often thought of as a rule of thumb. It is an interesting concept that proves to be rather correct. The 80/20 rule works in economics, engineering, and even user experience design.
+
+As reference you can use [this article](https://medium.com/pm101/how-you-can-apply-the-80-20-rule-in-your-life-and-work-7d094a78e136), and [this](https://medium.com/@Thelouis/pareto-principle-80-20-rule-for-productivity-7d933f4fc11d)
 
 ### Challenge 1: What is the difference between expected value and mean?
 You know both concepts but, is there a difference? Are they synonims? Start investigating. 
