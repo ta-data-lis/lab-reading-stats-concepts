@@ -47,13 +47,7 @@ We think it will work but can we be sure? So instead of implementing this new bu
 
 Read more about A/B testing with a couple of examples:
 
-[Another example about Netflix here](http://select.video/artwork4)
-
-[What happened to Basecamp](http://millions.social/tested7)
-
-[An example with Python](http://math.social/tested3)
-
-[A cool general explanation](http://arts.show/tested7)
+[Article here](https://medium.com/@ayseninulker/a-beginners-guide-how-an-effective-a-b-test-is-run-a7f121fcfd5)
 
 So, take one single example in the articles you just read, which specific test/s would you apply? (We want you just to do a draft and think a little bit how to apply the tests you already know in this case)
 
